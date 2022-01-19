@@ -1,0 +1,47 @@
+ 
+.App {
+  background-color: rgba(90, 206, 236, 0.3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-sizing: border-box;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.videoContainer {
+  width: 80vw;
+  padding: 15px;
+  position: relative;
+}
+
+.videoImage {
+  position: absolute;
+  width: 8%;
+  height: 15%
+}
+
+.topLeft {
+  top: 5%;
+  left: 3%;
+}
+
+.topRight {
+  top: 5%;
+  right: 3%;
+}
+
+.centre {
+  top: calc(50% - 8%);
+  left: calc(50% - 5%);
+}
+
+.noDisplay {
+  display: none;
+}
+
+
