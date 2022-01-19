@@ -17,8 +17,8 @@ function App() {
   let delay3 = 7000;
 
   let intervalTimeOne = 5000;
-  let intervalTimeTwo = 5000;
-  let intervalTimeThree = 5000;
+  let intervalTimeTwo = 2000;
+  let intervalTimeThree = 1500;
 
   let displayNumberOne = 1;
   let displayNumberTwo = 2;
